@@ -2,7 +2,10 @@ module github.com/go-water/examples
 
 go 1.22
 
-require github.com/go-water/water v0.9.4
+require (
+	github.com/go-water/water v0.9.4
+	golang.org/x/sync v0.6.0
+)
 
 require (
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
